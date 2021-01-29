@@ -1,0 +1,136 @@
+{
+  "surveys": [
+    {
+      "id": "1",
+      "name": "General Knowledge Survey",
+      "questions": [
+        {
+          "id": "53",
+          "createdBy": "Elisabeth Winters",
+          "createdDateTime": "Fri, 22 May 2020 01:11:00 GMT",
+          "title": "How many astronauts landed on the moon?",
+          "subTitle": "You can make a guess as well",
+          "questionType": 3,
+          "options": [
+            {
+              "id": "1",
+              "text": "1"
+            },
+            {
+              "id": "2",
+              "text": "3"
+            },
+            {
+              "id": "3",
+              "text": "18"
+            }
+          ]
+        },
+        {
+          "id": "72",
+          "createdBy": "Maryam O'Ryan",
+          "createdDateTime": "Tue, 26 May 2020 05:57:52 GMT",
+          "title": "How many devs does it take to change a lightbulb?",
+          "subTitle": "This is not a trick question.",
+          "questionType": 3,
+          "options": [
+            {
+              "id": "1",
+              "text": "One"
+            },
+            {
+              "id": "2",
+              "text": "Two"
+            },
+            {
+              "id": "3",
+              "text": "Three thousand three hundred eighty-seven"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "createdBy": "Maryam O'Ryan",
+          "createdDateTime": "Tue, 26 May 2020 05:57:52 GMT",
+          "title": "How did Spider-Man get his powers?",
+          "subTitle": "A piece of cake.",
+          "questionType": 3,
+          "options": [
+            {
+              "id": "1",
+              "text": "Military experiment gone awry"
+            },
+            {
+              "id": "2",
+              "text": "Born with them"
+            },
+            {
+              "id": "3",
+              "text": "Woke up with them after a strange dream"
+            },
+            {
+              "id": "4",
+              "text": "Bitten by a radioactive spider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Melbourne's Weather Survey",
+      "questions": [
+        {
+          "id": "34",
+          "createdBy": "Andre Grid",
+          "createdDateTime": "Thur, 28 May 2020 09:30:00 GMT",
+          "title": "What is the temp today?",
+          "subTitle": "We need to send this to the Bureau of Meteorology.",
+          "questionType": 3,
+          "options": [
+            {
+              "id": "1",
+              "text": "10°"
+            },
+            {
+              "id": "2",
+              "text": "20°"
+            },
+            {
+              "id": "3",
+              "text": "30°"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Brand Awareness Survey",
+      "questions": [
+        {
+          "id": "34",
+          "createdBy": "Andre Grid",
+          "createdDateTime": "Thur, 28 May 2020 09:30:00 GMT",
+          "title": "What do you know about our brand?",
+          "subTitle": "We need to send this to the Bureau of Nerdology.",
+          "questionType": 3,
+          "options": [
+            {
+              "id": "1",
+              "text": "Nothing"
+            },
+            {
+              "id": "2",
+              "text": "Everything"
+            },
+            {
+              "id": "3",
+              "text": "I wont tell"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
