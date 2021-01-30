@@ -2,15 +2,16 @@ import React, { useEffect, useState } from "react";
 import { Grid, Label, List, Segment, Header } from "semantic-ui-react";
 import LoadingComponent from "../../../app/layout/LoadingComponent";
 import { Survey } from "../../../app/models/survey";
-import data from "../../../app/api/surveys.mock.json";
 import { Link } from "react-router-dom";
+import agent from "../../../app/api/agent";
 
 export default function SurveyDashboard() {
   const [loading, setLoading] = useState(true);
-  const surveys: Survey[] = data.surveys as Survey[];
+  const [surveys, setSurveys] = useState([] as Survey[]);
 
   useEffect(() => {
     setTimeout(() => {
+      setSurveys(agent.Surveys.list());
       setLoading(false);
     }, 1000);
   }, []);
