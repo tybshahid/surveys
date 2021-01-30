@@ -11,8 +11,8 @@ export default function SurveyDashboard() {
   const [survey, setSurvey] = useState({} as Survey);
 
   useEffect(() => {
+    setSurvey(agent.Surveys.details(id) as Survey);
     setTimeout(() => {
-      setSurvey(agent.Surveys.details(id) as Survey);
       setLoading(false);
     }, 1000);
   }, [setLoading, id]);
