@@ -2,7 +2,7 @@
 
 This Application is a Web Based demo Survey system.
 
-It's hosted as a Live Demo here: [Surveys](https://surveys.eleagues.net/)
+It's hosted as a Live Demo here: [Surveys](https://surveys.eleagues.online/)
 
 ### Commands to run the project:
 - cd client-app
